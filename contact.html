@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>手工社团</title>
+<link href="实例css.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Asset&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="nav">
+  <ul>
+    <li><a href="Home.html">home</a></li>
+    <li><a href="招新.html">招新</a></li>
+    
+    <li><a class="dark" href="#">contact</a></li>
+  </ul>
+</div>
+<div id="header">
+  <img src="image/logo.jpg" width="180" height="150" alt="logo">
+  <h1>创意手工社</h1>
+  <p>在这里，创造属于你的独一无二的精彩。 </p>
+</div>
+<div id="contentcontact">
+  <form name="form1" method="post" action="../网页制作/contact.php">
+    <table>
+      <tr>
+        <td>Name :</td>
+        <td><label for="name"></label>
+        <input type="text" name="name" id="name"></td>
+      </tr>
+      <tr>
+        <td>Email :</td>
+        <td><label for="email"></label>
+        <input type="text" name="email" id="email"></td>
+      </tr>
+      <tr>
+        <td>Tel :</td>
+        <td><label for="tel"></label>
+        <input type="text" name="tel" id="tel"></td>
+      </tr>
+      <tr>
+        <td>Days :</td>
+        <td><label for="day"></label>
+          <select name="which day is free for you." id="day">
+            <option value="1d">Monday</option>
+            <option value="2d">Thesday</option>
+            <option value="3d">Wednesday</option>
+            <option value="4d">Thursday</option>
+			<option value="4d">Friday</option>
+			<option value="4d">Staurday</option>
+			<option value="4d">Sunday</option>
+			  
+        </select></td>
+      </tr>
+      <tr>
+        <td>Massage :</td>
+        <td><label for="message"></label>
+        <textarea name="message" id="message"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="submit" name="send" id="send" value="Send your message"></td>
+      </tr>
+    </table>
+  </form>
+</div>
+<div id="footer">
+  <p>创意手工社 &copy; 2020</p>
+  <ul class="微信公众号">
+  <li class="Whchat"></li>
+  <li class="微博"></li>
+  </ul>
+</div>
+</body>
+</html>
